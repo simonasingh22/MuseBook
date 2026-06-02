@@ -1,4 +1,8 @@
 /* Chatbot Styles */
+.chatbot-container, .chatbot-container * {
+    box-sizing: border-box;
+}
+
 .chatbot-button {
     position: fixed;
     bottom: 20px;
@@ -87,6 +91,7 @@
     padding: 15px;
     border-top: 1px solid #ddd;
     display: flex;
+    align-items: center;
 }
 
 .chatbot-input input {
